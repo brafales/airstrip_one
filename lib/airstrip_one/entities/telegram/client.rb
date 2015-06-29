@@ -3,8 +3,8 @@ module Telegram
 
     TELEGRAM_API_ENDPOINT = "https://api.telegram.org/"
 
-    def self.set_webhook(url)
-      connection.get set_webhook_url url: "https://airstrip-one.herokuapp.com/api/update"
+    def self.set_webhook(url:)
+      connection.get(set_webhook_url, url: url)
     end
 
     private

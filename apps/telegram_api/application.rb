@@ -38,12 +38,12 @@ module TelegramApi
       # URI scheme used by the routing system to generate absolute URLs
       # Defaults to "http"
       #
-      # scheme 'https'
+      scheme ENV['scheme'] || 'http'
 
       # URI host used by the routing system to generate absolute URLs
       # Defaults to "localhost"
       #
-      # host 'example.org'
+      host ENV['host'] || 'localhost'
 
       # URI port used by the routing system to generate absolute URLs
       # Argument: An object coercible to integer, default to 80 if the scheme is http and 443 if it's https

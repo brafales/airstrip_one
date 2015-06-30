@@ -6,8 +6,7 @@ module TelegramApi::Controllers::Home
 
     def call(params)
       TelegramApi::Logger.error params
-      TelegramApi::Logger.error params["update_id"]
-      Telegram::Client.send_message("Logs casolans fets a foc lent", "INVALID") rescue nil
+      Telegram::Client.send_message("Logs casolans fets a foc lent", params["message"]["chat"]["id"])
       self.format = :json
       self.body = ""
     end

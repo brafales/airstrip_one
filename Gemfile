@@ -8,6 +8,8 @@ gem 'lotusrb',       '0.4.0'
 gem 'lotus-model',   '~> 0.4'
 gem 'lotus-router', git: 'https://github.com/AlfonsoUceda/router.git', branch: 'fix-container-router-bug'
 
+gem 'pinchito', git: 'https://github.com/brafales/pinchito.git'
+
 gem 'faraday'
 gem 'pg'
 gem 'nokogiri'

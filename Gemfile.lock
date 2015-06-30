@@ -7,6 +7,14 @@ GIT
       http_router (~> 0.11)
       lotus-utils (~> 0.5)
 
+GIT
+  remote: https://github.com/brafales/pinchito.git
+  revision: b20279ce778494c5540316aac107be2e0489e923
+  specs:
+    pinchito (0.0.1)
+      faraday
+      nokogiri
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -86,6 +94,7 @@ DEPENDENCIES
   minitest
   nokogiri
   pg
+  pinchito!
   puma
   rake
 

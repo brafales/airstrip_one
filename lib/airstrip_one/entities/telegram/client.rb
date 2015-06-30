@@ -7,10 +7,18 @@ module Telegram
       connection.get(set_webhook_url, url: url)
     end
 
+    def self.send_message(message, chat_id)
+      connection.post(send_message_url, chat_id: chat_id, text: message)
+    end
+
     private
 
     def self.set_webhook_url
       "#{bot_url}/setWebhook"
+    end
+
+    def self.send_message_url
+      "#{bot_url}/sendMessage"
     end
 
     def self.bot_url

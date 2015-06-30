@@ -5,8 +5,6 @@ module Telegram
 
     TELEGRAM_API_ENDPOINT = "https://api.telegram.org/bot#{ENV['AUTH_TOKEN']}"
 
-    Typhoeus::Config.verbose = true
-
     def self.set_webhook(url:)
       connection.get(set_webhook_url, url: url)
     end

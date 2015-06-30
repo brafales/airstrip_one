@@ -10,7 +10,7 @@ gem 'lotus-router', git: 'https://github.com/AlfonsoUceda/router.git', branch: '
 
 gem 'pinchito', git: 'https://github.com/brafales/pinchito.git'
 
-gem 'faraday'
+gem 'typhoeus'
 gem 'pg'
 gem 'nokogiri'
 

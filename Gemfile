@@ -4,11 +4,12 @@ source 'https://rubygems.org'
 gem 'bundler'
 gem 'rake'
 
-gem 'lotusrb',       '0.4.0'
-gem 'lotus-model',   '~> 0.4'
-gem 'lotus-router', git: 'https://github.com/AlfonsoUceda/router.git', branch: 'fix-container-router-bug'
+gem 'lotusrb',          '0.4.0'
+gem 'lotus-model',      '~> 0.4'
+gem 'lotus-router',     git: 'https://github.com/AlfonsoUceda/router.git', branch: 'fix-container-router-bug'
 
-gem 'pinchito', git: 'https://github.com/brafales/pinchito.git'
+gem 'pinchito',         git: 'https://github.com/brafales/pinchito.git'
+gem 'telegram_bot_api', git: 'https://github.com/brafales/telegram_bot_api.git'
 
 gem 'typhoeus'
 gem 'pg'

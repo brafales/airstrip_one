@@ -15,6 +15,13 @@ GIT
       faraday
       nokogiri
 
+GIT
+  remote: https://github.com/brafales/telegram_bot_api.git
+  revision: f9c32517d2431e3a17188ae6a020f8fb71785f44
+  specs:
+    telegram_bot_api (0.1.0)
+      typhoeus
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -32,7 +39,7 @@ GEM
       ffi (>= 1.3.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.9)
+    ffi (1.9.10)
     http_router (0.11.1)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -101,6 +108,7 @@ DEPENDENCIES
   pinchito!
   puma
   rake
+  telegram_bot_api!
   typhoeus
 
 BUNDLED WITH

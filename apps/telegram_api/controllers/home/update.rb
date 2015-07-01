@@ -5,7 +5,13 @@ module TelegramApi::Controllers::Home
     include TelegramApi::Action
 
     def call(params)
-      TelegramApi::Logger.error(TelegramBotApi::Client.send_message("Logs casolans fets a foc lent", params["message"]["chat"]["id"]))
+      begin
+        message = params["message"]["text"]
+        chat_id = params["message"]["chat"]["id"]
+        LogCommand.process(message: message, chat_id: chat_id)
+      rescue => e
+        TelegramApi::Logger.error(e)
+      end
       self.format = :json
       self.body = ""
     end

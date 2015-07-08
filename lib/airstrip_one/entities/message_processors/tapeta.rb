@@ -6,7 +6,7 @@ module MessageProcessors
     end
 
     def interested?
-      @message.match(/^\/tapeta$/)
+      @message.text.match(/^\/tapeta$/)
     end
 
     def process

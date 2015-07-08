@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: https://github.com/brafales/telegram_bot_api.git
-  revision: f9c32517d2431e3a17188ae6a020f8fb71785f44
+  revision: d8ea1414f95f359fd6a8af83f0cde480f2657995
   specs:
     telegram_bot_api (0.1.0)
       typhoeus

@@ -38,3 +38,5 @@ Lotus::Model.configure do
     # end
   end
 end.load!
+
+require_relative 'config'

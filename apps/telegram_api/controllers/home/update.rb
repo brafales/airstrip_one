@@ -6,6 +6,7 @@ module TelegramApi::Controllers::Home
 
     def call(params)
       begin
+        TelegramApi::Logger.error(params)
         message = TelegramBotApi::Message.new(params["message"])
         MessageDispatcher.process(message)
       rescue => e

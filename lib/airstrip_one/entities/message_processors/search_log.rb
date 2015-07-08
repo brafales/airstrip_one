@@ -6,7 +6,7 @@ module MessageProcessors
     end
 
     def interested?
-      @message..text.match(/^\/search ([\w\s\.,-\?!]+)$/)
+      @message.text.match(/^\/search ([\w\s\.,-\?!]+)$/)
     end
 
     def process

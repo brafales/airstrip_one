@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/brafales/pinchito.git
-  revision: 06f24b24e0fbeec09ee8a60f4489f840f22bd7e1
-  ref: 06f24b24e0fbeec09ee8a60f4489f840f22bd7e1
+  revision: 88ecce87355aa24b427af3b298b9f054613db82e
+  ref: 88ecce87355aa24b427af3b298b9f054613db82e
   specs:
     pinchito (0.0.1)
       faraday

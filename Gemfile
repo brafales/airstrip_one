@@ -8,7 +8,7 @@ gem 'lotusrb',          '0.4.0'
 gem 'lotus-model',      '~> 0.4'
 gem 'lotus-router',     git: 'https://github.com/AlfonsoUceda/router.git', branch: 'fix-container-router-bug'
 
-gem 'pinchito',         git: 'https://github.com/brafales/pinchito.git', ref: '06f24b24e0fbeec09ee8a60f4489f840f22bd7e1'
+gem 'pinchito',         git: 'https://github.com/brafales/pinchito.git', ref: '88ecce87355aa24b427af3b298b9f054613db82e'
 gem 'telegram_bot_api', git: 'https://github.com/brafales/telegram_bot_api.git'
 
 gem 'typhoeus'

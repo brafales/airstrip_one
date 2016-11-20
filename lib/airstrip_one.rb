@@ -8,7 +8,7 @@ Lotus::Model.configure do
   # Available options:
   #
   #  * Memory adapter
-  #    adapter type: :memory, uri: 'memory://localhost/airstrip_one_development'
+     adapter type: :memory, uri: 'memory://localhost/airstrip_one_development'
   #
   #  * SQL adapter
   #    adapter type: :sql, uri: 'sqlite://db/airstrip_one_development.sqlite3'

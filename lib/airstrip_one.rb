@@ -15,7 +15,7 @@ Lotus::Model.configure do
   #    adapter type: :sql, uri: 'postgres://localhost/airstrip_one_development'
   #    adapter type: :sql, uri: 'mysql://localhost/airstrip_one_development'
   #
-  adapter type: :sql, uri: ENV['AIRSTRIP_ONE_DATABASE_URL']
+  # adapter type: :sql, uri: ENV['AIRSTRIP_ONE_DATABASE_URL']
 
   ##
   # Database mapping
